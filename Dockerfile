@@ -2,7 +2,7 @@
 FROM node:10
 
 # Create app directory
-WORKDIR /usr/src/cs470_fullstack2/lafs-api
+WORKDIR /usr/src/lafs-api
 
 # Install app dependencies
 # A wildcard is used to ensure both package.json AND package-lock.json are copied
@@ -21,4 +21,4 @@ COPY . .
 EXPOSE 3000
 
 # Command used to start application
-CMD ng serve --host 0.0.0.0
+CMD npm run start
