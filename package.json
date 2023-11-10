@@ -8,6 +8,7 @@
   "scripts": {
     "lint": "eslint .",
     "start": "node .",
+    "serve": "nodemon server.js",
     "posttest": "npm run lint && nsp check"
   },
   "dependencies": {
